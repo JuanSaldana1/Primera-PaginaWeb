@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+header {
+    background-image: url(./oceano.jpg);
+    padding: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.barra_lateral_IZ h1 {
+    margin: 15px, 0px, 0px, 55px;
+}
+
+p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    background-color: #CE6D1D;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.barra_lateral_IZ {
+    float: left;
+    width: 250px;
+    background-color: red;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding: 10px 0;
+    width: 600px;
+    float: left;
+}
+
+.sidebar2 {
+    float: right;
+    width: 180px;
+    background-color: #EADCAE;
+}
+
+.footer {
+    padding: 10px 0;
+    background-color: #CCC49F;
+    position: relative;
+    clear: both;
+}
+
+.fltrt {
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    float: left;
+    margin-right: 8px;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 9px;
+    width: auto;
+}

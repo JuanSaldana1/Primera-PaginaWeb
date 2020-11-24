@@ -47,6 +47,9 @@ li a {
 a:link {
     color: white;
     text-decoration: none;
+    padding: 14px 25px;
+    text-align: left;
+    display: inline-block;
 }
 
 a:hover,
@@ -63,9 +66,13 @@ a:focus {
     height: 742px;
 }
 
-.barra_lateral_IZ h1,
-a {
+.barra_lateral_IZ h1 {
     margin-left: 15px;
+}
+
+.barra_lateral_IZ a {
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 .barra_lateral_IZ a:hover {

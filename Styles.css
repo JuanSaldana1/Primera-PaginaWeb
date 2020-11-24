@@ -13,17 +13,25 @@ header {
     font-size: 23px;
     font-weight: bold;
     height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     width: 100%;
 }
 
-.barra_lateral_IZ h1 {
-    margin: 15px, 0px, 0px, 55px;
+li {
+    float: left;
 }
 
-p {
-    margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+li a {
+    display: block;
+    padding: 9px;
+    width: auto;
 }
 
 a:link {
@@ -36,10 +44,6 @@ a:active,
 a:focus {
     text-decoration: none;
     background-color: #CE6D1D;
-}
-
-body {
-    margin: 0 auto;
 }
 
 .barra_lateral_IZ {
@@ -62,6 +66,12 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .barra_lateral_DR {
     float: right;
     width: 180px;
@@ -74,40 +84,4 @@ a {
     position: relative;
     clear: both;
     font-size: 60%;
-}
-
-.fltrt {
-    float: right;
-    margin-left: 8px;
-}
-
-.fltlft {
-    float: left;
-    margin-right: 8px;
-}
-
-.clearfloat {
-    clear: both;
-    height: 0;
-    font-size: 1px;
-    line-height: 0px;
-}
-
-ul {
-    list-style-type: none;
-    background-color: purple;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 9px;
-    width: auto;
 }

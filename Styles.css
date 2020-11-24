@@ -1,7 +1,5 @@
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    height: auto;
     color: #000;
 }
 
@@ -13,6 +11,15 @@ header {
     font-size: 23px;
     font-weight: bold;
     height: 30px;
+}
+
+nav {
+    list-style-type: none;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 ul {
@@ -72,7 +79,6 @@ p {
 
 .barra_lateral_DR {
     float: right;
-    width: 180px;
     background-color: #EADCAE;
 }
 

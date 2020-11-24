@@ -83,13 +83,33 @@ a:focus {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.columna_central {
     margin-top: 0;
+    margin-left: 260px;
+    margin-right: 600px;
 }
 
 .barra_lateral_DR {
     float: right;
-    background-color: #EADCAE;
+    width: 250px;
+    background-color: red;
+}
+
+.barra_lateral_DR h1 {
+    margin-left: 15px;
+}
+
+.barra_lateral_DR a {
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.barra_lateral_DR a:hover {
+    background-color: blue;
+}
+
+.barra_lateral_DR a:active {
+    background-color: blue;
 }
 
 .footer {

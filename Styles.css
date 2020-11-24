@@ -7,11 +7,13 @@ body {
 
 header {
     background-image: url(./oceano.jpg);
+    background-repeat: no-repeat;
     padding: 30px;
     color: white;
     font-size: 23px;
     font-weight: bold;
     height: 30px;
+    width: 100%;
 }
 
 .barra_lateral_IZ h1 {
@@ -44,16 +46,23 @@ body {
     float: left;
     width: 250px;
     background-color: red;
-    padding-bottom: 10px;
+    height: 742px;
 }
 
-.content {
-    padding: 10px 0;
-    width: 600px;
-    float: left;
+.barra_lateral_IZ h1,
+a {
+    margin-left: 15px;
 }
 
-.sidebar2 {
+.barra_lateral_IZ a:hover {
+    background-color: blue;
+}
+
+.columna_central {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra_lateral_DR {
     float: right;
     width: 180px;
     background-color: #EADCAE;
@@ -64,6 +73,7 @@ body {
     background-color: #CCC49F;
     position: relative;
     clear: both;
+    font-size: 60%;
 }
 
 .fltrt {

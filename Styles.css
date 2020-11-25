@@ -84,32 +84,14 @@ a:focus {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 p {
     margin-top: 0;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-a img {
-    border: none;
-}
-
 a:link {
     color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover,
-a:active,
-a:focus {
     text-decoration: none;
 }
 
@@ -129,11 +111,10 @@ a:focus {
 
 .sidebar2 {
     float: left;
-    width: 320px;
+    width: 335px;
     background-color: #EADCAE;
     padding: 10px 0;
     float: left;
-    width: 270px;
     max-height: max-content;
     display: block;
 }

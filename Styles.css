@@ -1,19 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: auto;
-    color: #000;
-}
-
 header {
     background-image: url(./oceano.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
     color: white;
-    font-size: 23px;
-    font-weight: bold;
-    height: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
 }
 
 nav {
@@ -23,6 +18,7 @@ nav {
     padding: 0;
     overflow: hidden;
     width: 100%;
+    text-decoration: none;
 }
 
 ul {
@@ -59,63 +55,116 @@ a:focus {
     background-color: #CE6D1D;
 }
 
-.barra_lateral_IZ {
-    float: left;
-    width: 250px;
-    background-color: red;
-    height: 742px;
-}
-
-.barra_lateral_IZ h1 {
-    margin-left: 15px;
-}
-
-.barra_lateral_IZ a {
-    border-radius: 5px;
-    margin-left: 5px;
-}
-
-.barra_lateral_IZ a:hover {
-    background-color: blue;
-}
-
-.columna_central {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.columna_central {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0;
-    margin-left: 260px;
-    margin-right: 600px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.barra_lateral_DR {
-    float: right;
-    width: 250px;
-    background-color: red;
+a img {
+    border: none;
 }
 
-.barra_lateral_DR h1 {
-    margin-left: 15px;
+a:link {
+    color: white;
+    text-decoration: none;
 }
 
-.barra_lateral_DR a {
-    border-radius: 5px;
-    margin-left: 5px;
+a:visited {
+    color: #6E6C64;
+    text-decoration: none;
 }
 
-.barra_lateral_DR a:hover {
-    background-color: blue;
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
 }
 
-.barra_lateral_DR a:active {
-    background-color: blue;
+.container {
+    width: 1680px;
+    background-color: #FFF;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.footer {
+.sidebar1 {
+    float: left;
+    width: 180px;
+    background-color: #EADCAE;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding: 10px 0;
+    width: 1100px;
+    float: left;
+}
+
+.sidebar2 {
+    float: left;
+    width: 320px;
+    background-color: #EADCAE;
+    padding: 10px 0;
+}
+
+
+/* ~~ Este selector agrupado da espacio a las listas del área de .content ~~ */
+
+.content ul,
+.content ol {
+    padding: 0 15px 15px 40px;
+    /* este relleno reproduce en espejo el relleno derecho de la regla de encabezados y de párrafo incluida más arriba. El relleno se ha colocado en la parte inferior para que el espacio existente entre otros elementos de la lista y a la izquierda cree la sangría. Estos pueden ajustarse como se desee. */
+}
+
+
+/* ~~ Los estilos de lista de navegación (pueden eliminarse si opta por usar un menú desplegable predefinido como el de Spry) ~~ */
+
+ul.nav {
+    list-style: none;
+    /* esto elimina el marcador de lista */
+    border-top: 1px solid #666;
+    /* esto crea el borde superior de los vínculos (los demás se sitúan usando un borde inferior en el LI) */
+    margin-bottom: 15px;
+    /* esto crea el espacio entre la navegación en el contenido situado debajo */
+}
+
+ul.nav li {
+    border-bottom: 1px solid #666;
+    /* esto crea la separación de los botones */
+}
+
+ul.nav a,
+ul.nav a:visited {
+    /* al agrupar estos selectores, se asegurará de que los vínculos mantengan el aspecto de botón incluso después de haber sido visitados */
+    padding: 5px 5px 5px 15px;
+    display: block;
+    /* esto asigna propiedades de bloque al vínculo, lo que provoca que llene todo el LI que lo contiene. Esto provoca que toda el área reaccione a un clic de ratón. */
+    width: 160px;
+    /*esta anchura hace que se pueda hacer clic en todo el botón para IE6. Puede eliminarse si no es necesario proporcionar compatibilidad con IE6. Calcule la anchura adecuada restando el relleno de este vínculo de la anchura del contenedor de barra lateral. */
+    text-decoration: none;
+    background-color: #C6D580;
+}
+
+ul.nav a:hover,
+ul.nav a:active,
+ul.nav a:focus {
+    /* esto cambia el color de fondo y del texto tanto para usuarios que naveguen con ratón como para los que lo hagan con teclado */
+    background-color: #ADB96E;
+    color: #FFF;
+}
+
+footer {
     padding: 10px 0;
     background-color: #CCC49F;
     position: relative;
     clear: both;
     font-size: 60%;
+    width: 1680px;
 }

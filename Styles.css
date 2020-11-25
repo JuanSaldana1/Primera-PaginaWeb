@@ -3,6 +3,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    height: 60px;
+}
+
+header h1 {
+    padding: 9px;
 }
 
 body {

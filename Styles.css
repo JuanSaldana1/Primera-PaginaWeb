@@ -67,6 +67,7 @@ a:focus {
     background-color: brown;
     padding-bottom: 10px;
     max-height: max-content;
+    display: block;
 }
 
 .enlaces_barra_izquierda a {
@@ -117,7 +118,7 @@ a:focus {
 
 .content {
     padding: 10px 0;
-    width: 1100px;
+    width: 1025px;
     float: left;
 }
 
@@ -126,6 +127,7 @@ a:focus {
     width: 320px;
     background-color: #EADCAE;
     padding: 10px 0;
+    display: block;
 }
 
 

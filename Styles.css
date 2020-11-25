@@ -63,21 +63,18 @@ a:focus {
 
 .sidebar1 {
     float: left;
-    width: 180px;
-    background-color: #EADCAE;
+    width: 270px;
+    background-color: brown;
     padding-bottom: 10px;
+    max-height: max-content;
 }
 
-.sidebar1 h1 {
-    float: left;
-    width: 180px;
-    background-color: #EADCAE;
-    padding-bottom: 10px;
-}
-
-.enlaces_barra_izquierda {
+.enlaces_barra_izquierda a {
     margin-left: 5px;
-    border-radius: 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: underline;
+    width: 150px;
 }
 
 h1,

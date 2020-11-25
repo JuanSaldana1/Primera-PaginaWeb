@@ -91,11 +91,6 @@ p {
     padding-left: 15px;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
 .container {
     width: 1680px;
     background-color: #FFF;
@@ -118,6 +113,14 @@ a:link {
     float: left;
     max-height: max-content;
     display: block;
+}
+
+.enlaces_barra_derecha a {
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: underline;
+    width: 165px;
 }
 
 

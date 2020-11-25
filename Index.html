@@ -2,61 +2,60 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documento sin título</title>
-    <link href="Styles.css" rel="stylesheet" type="text/css">
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-
     <header>
         Mi primera pagina
     </header>
 
     <nav>
         <ul>
-            <li><a href="./Index.html">Home</a></li>
+            <li><a href="../../../Templates/Index.html">Home</a></li>
             <li><a href="#">Tecnología</a></li>
             <li><a href="#">Deporte</a></li>
             <li><a href="#">Gastronomía</a></li>
             <li><a href="#">Sobre mí</a></li>
         </ul>
     </nav>
-    <div class="barra_lateral_IZ">
-        <h1>Ayuntamientos de La Rioja</h1>
-        <a href="http://tallerhtml202015.atwebpages.com/">Página web LM</a><br>
-        <a href="http://juansaldana.atwebpages.com/">Página web mía propia</a><br>
-        <a href="https://mapaespanacomunidadesycapitales.netlify.app/">Mapa España Comunidades y Capitales</a><br>
-        <a href=""></a><br>
-        <a href=""></a>
-    </div>
-    <div class="columna_central">
-        <h1>Instrucciones</h1>
-        <p>Tenga en cuenta que la CSS para estos diseños cuenta con numerosos comentarios. Si realiza la mayor parte de su trabajo en la vista Diseño, eche un vistazo al código para obtener sugerencias sobre cómo trabajar con la CSS para diseños fijos. Puede
-            quitar estos comentarios antes de lanzar el sitio. Para obtener más información sobre las técnicas usadas en estos diseños CSS, lea este artículo en el Centro de desarrolladores de Adobe.</p>
-        <h2>Método de borrado</h2>
-        <p>Dado que todas las columnas son flotantes, este diseño usa una declaración clear:both en la regla .footer. Esta técnica de borrado fuerza a .container a conocer dónde terminan las columnas con el fin de mostrar cualquier borde o color de fondo
-            que coloque en .container. Si su diseño exige la eliminación de .footer de .container, deberá usar un método de borrado diferente. El más fiable consiste en añadir una &lt;br class=&quot;clearfloat&quot; /&gt; o &lt;div class=&quot;clearfloat&quot;&gt;&lt;/div&gt;
-            tras la última columna flotante (pero antes de que se cierre .container). Esto proporcionará el mismo efecto de borrado.
-        </p>
-        <h3>Sustitución de logotipo</h3>
-        <p>Se ha utilizado un marcador de posición de imagen en el .header de este diseño, en el que lo más probable es que desee colocar un logotipo. Se recomienda quitar el marcador de posición y reemplazarlo por su propio logotipo vinculado. </p>
-        <p> Tenga en cuenta que si utiliza el inspector de propiedades para navegar hasta la imagen de su logotipo empleando el campo Origen (en lugar de quitar y reemplazar el marcador de posición), deberá quitar el fondo en línea y mostrar las propiedades.
-            Estos estilos en línea sólo se utilizan para hacer que el marcador de posición del logotipo aparezca en los navegadores para fines de demostración. </p>
-        <p>Para quitar los estilos en línea, asegúrese de que el panel Estilos CSS está configurado como Actual. Seleccione la imagen y, en la sección Propiedades del panel Estilos CSS, haga clic con el botón derecho del ratón y elimine las propiedades de
-            visualización y de fondo. (Por supuesto que siempre podrá ir directamente al código y eliminar allí los estilos en línea de la imagen o el marcador de posición.)</p>
-    </div>
-    <div class="barra_lateral_DR">
-        <h1>Mis páginas favoritas</h1>
-        <a href="http://tallerhtml202015.atwebpages.com/">Página web LM</a><br>
-        <a href="http://juansaldana.atwebpages.com/">Página web mía propia</a><br>
-        <a href=""></a><br>
-        <a href=""></a>
-    </div>
-    <div class="footer">
-        <p>Este .footer contiene la declaración position:relative; para dar a Internet Explorer 6 hasLayout para .footer y provocar que se borre correctamente. Si no es necesario proporcionar compatibilidad con IE6, puede quitarlo.
-        </p>
-    </div>
+
+    <div class="container">
+        <div class="sidebar1">
+            <p> Los vínculos anteriores muestran una estructura de navegación básica que emplea una lista no ordenada con estilo de CSS. Utilícela como punto de partida y modifique las propiedades para lograr el aspecto deseado. Si necesita menús desplegables,
+                créelos empleando un menú de Spry, un widget de menú de Adobe Exchange u otras soluciones de javascript o CSS.
+            </p>
+            <p>Si desea que la navegación se sitúe a lo largo de la parte superior, simplemente mueva ul.nav a la parte superior de la página y vuelva a crear el estilo.</p>
+            <!-- end .sidebar1 -->
+        </div>
+        <div class="content">
+            <h1>Instrucciones</h1>
+            <p>Tenga en cuenta que la CSS para estos diseños cuenta con numerosos comentarios. Si realiza la mayor parte de su trabajo en la vista Diseño, eche un vistazo al código para obtener sugerencias sobre cómo trabajar con la CSS para diseños fijos.
+                Puede quitar estos comentarios antes de lanzar el sitio. Para obtener más información sobre las técnicas usadas en estos diseños CSS, lea este artículo en el Centro de desarrolladores de Adobe: <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
+            <h2>Borrado</h2>
+            <p>Dado que todas las columnas son flotantes, este diseño usa overflow:hidden en .container. Esta técnica de borrado fuerza a .container a conocer dónde terminan las columnas con el fin de mostrar cualquier borde o color de fondo que coloque
+                en .container. Si tiene algún elemento grande que sobresale por fuera de .container, parecerá estar cortado. Tampoco podrá usar márgenes negativos ni posiciones absolutas con valores negativos para sacar elementos fuera de .container,
+                o tampoco se mostrarán fuera de .container.</p>
+            <p>Si necesita usar estas propiedades, deberá emplear otro método de borrado diferente. El más fiable consiste en añadir una &lt;br class=&quot;clearfloat&quot; /&gt; o &lt;div class=&quot;clearfloat&quot;&gt;&lt;/div&gt; tras la última columna
+                flotante (pero antes de que se cierre .container). Esto proporcionará el mismo efecto de borrado.
+            </p>
+
+            <!-- end .content -->
+        </div>
+        <div class="sidebar2">
+            <h4>Fondos</h4>
+            <p>Por naturaleza, el color de fondo de cualquier div sólo se muestra a lo largo del contenido. Si desea usar una línea divisora en lugar de un color, coloque un borde en el lado de la div de .content (pero sólo en el caso de que siempre vaya
+                a tener más contenido).</p>
+            <!-- end .sidebar2 -->
+        </div>
+        <!-- fin .container -->
+        <footer>
+            <h3>Pie de página</h3>
+            <p>La adición de un pie de página tras las columnas, aunque aún dentro de .container, provocará que este método de borrado overflow:hidden no funcione. Puede colocar un .footer en un segundo .container fuera del primero sin que se produzcan efectos
+                adversos. La opción más simple puede ser comenzar con un diseño que contenga encabezados y pies de página y quitar el encabezado para utilizar los métodos de borrado en ese tipo de diseño.</p>
+        </footer>
     </div>
 </body>
 

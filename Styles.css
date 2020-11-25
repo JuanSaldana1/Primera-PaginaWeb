@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
 header {
     background-image: url(./oceano.jpg);
     background-repeat: no-repeat;
@@ -9,12 +15,6 @@ header {
 header h1 {
     padding: 9px;
     margin-left: 10px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    color: #000;
 }
 
 nav {
@@ -61,6 +61,25 @@ a:focus {
     background-color: #CE6D1D;
 }
 
+.sidebar1 {
+    float: left;
+    width: 180px;
+    background-color: #EADCAE;
+    padding-bottom: 10px;
+}
+
+.sidebar1 h1 {
+    float: left;
+    width: 180px;
+    background-color: #EADCAE;
+    padding-bottom: 10px;
+}
+
+.enlaces_barra_izquierda {
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
 h1,
 h2,
 h3,
@@ -83,7 +102,6 @@ a:link {
 }
 
 a:visited {
-    color: #6E6C64;
     text-decoration: none;
 }
 
@@ -98,13 +116,6 @@ a:focus {
     background-color: #FFF;
     margin: 0 auto;
     overflow: hidden;
-}
-
-.sidebar1 {
-    float: left;
-    width: 180px;
-    background-color: #EADCAE;
-    padding-bottom: 10px;
 }
 
 .content {

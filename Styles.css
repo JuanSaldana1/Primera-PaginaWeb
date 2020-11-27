@@ -119,9 +119,10 @@ p {
     background-color: #7D95E0;
     color: white;
     margin-bottom: 15px;
+    margin-left: 15px;
     text-align: justify;
     text-decoration: underline;
-    width: 180px;
+    width: 160px;
 }
 
 .enlaces_barra_derecha a:hover {

@@ -66,7 +66,7 @@ a:focus {
     width: 270px;
     background-color: brown;
     padding-bottom: 10px;
-    max-height: 700px;
+    height: 700px;
     display: block;
 }
 

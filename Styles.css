@@ -75,7 +75,7 @@ a:focus {
     border-radius: 5px;
     color: white;
     text-decoration: underline;
-    width: 165px;
+    width: 170px;
 }
 
 .enlaces_barra_izquierda a:hover {
@@ -121,7 +121,7 @@ p {
     margin-bottom: 15px;
     text-align: justify;
     text-decoration: underline;
-    width: 190px;
+    width: 180px;
 }
 
 .enlaces_barra_derecha a:hover {

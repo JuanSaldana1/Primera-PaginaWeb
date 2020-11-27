@@ -110,18 +110,19 @@ p {
     background-color: bisque;
     display: block;
     float: left;
-    height: 500px;
+    height: auto;
     padding: 10px 0;
     width: 335px;
 }
 
 .enlaces_barra_derecha a {
-    margin-left: 10px;
+    background-color: #7D95E0;
     color: white;
+    margin-top: 15px;
+    padding: 30px;
+    text-align: justify;
     text-decoration: underline;
     width: 180px;
-    background-color: #7D95E0;
-    text-align: justify;
 }
 
 .enlaces_barra_derecha a:hover {
